@@ -1,0 +1,10 @@
+name = "ConZFCIn"
+version = "0.1.0"
+defaultTargets = ["conzfcin"]
+
+[[lean_lib]]
+name = "ConZFCIn"
+
+[[lean_exe]]
+name = "conzfcin"
+root = "Main"
