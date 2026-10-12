@@ -1,6 +1,6 @@
 {"version": "1.2.0",
  "packagesDir": ".lake/packages",
  "packages": [],
- "name": "ConZFCIn",
+ "name": "conzfcin",
  "lakeDir": ".lake",
  "fixedToolchain": false}

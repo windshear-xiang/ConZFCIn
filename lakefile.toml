@@ -1,10 +1,12 @@
-name = "ConZFCIn"
+name = "conzfcin"
 version = "0.1.0"
-defaultTargets = ["conzfcin"]
+defaultTargets = ["ConZFCIn"]
+
+[[lean_lib]]
+name = "Vendor"
+globs = ["Vendor.ConZF.+"]
 
 [[lean_lib]]
 name = "ConZFCIn"
+globs = ["ConZFCIn.*"]
 
-[[lean_exe]]
-name = "conzfcin"
-root = "Main"
