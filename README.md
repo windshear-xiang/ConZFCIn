@@ -23,6 +23,8 @@ python generate.py 8
 lake env lean ConZFCIn/Instances/N8.lean
 ```
 
+You can rewrite the `8` here as any fixed natural number.
+
 The generator writes Lean source; the resulting proof is checked by Lean's kernel.
 
 ## Files
